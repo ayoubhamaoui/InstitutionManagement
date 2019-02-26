@@ -7,9 +7,9 @@ namespace institution
 {
     public interface IDAO
     {
-        void Delete();
-        void Insert();
-        void Select();
-        void Update();
+        int Delete();
+        int Insert();
+        int Select();
+        int Update();
     }
 }
